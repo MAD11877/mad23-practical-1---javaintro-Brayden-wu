@@ -27,12 +27,12 @@ public class Question5 {
         Scanner in = new Scanner(System.in);
         
 //         System.out.print("Enter the number of integers: ");
-//         int n = in.nextInt();
+           int n = in.nextInt();
         
         int[] arr = new int[n];
         for (int i = 0; i < n; i++) {
 //             System.out.print("Enter an integer: ");
-//             arr[i] = in.nextInt();
+               arr[i] = in.nextInt();
         }
         
         // Find the mode
@@ -51,6 +51,6 @@ public class Question5 {
             }
         }
         
-        System.out.println("The mode is: " + mode);
+        System.out.println(mode);
     }
 }
